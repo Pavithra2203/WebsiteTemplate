@@ -1,0 +1,169 @@
+.footer_page {
+  width: 100%;
+  height: 100vh;
+}
+.footer_page .instagram_area {
+  width: 100%;
+  height: 211px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_page .instagram_area .conrainer_box {
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+.footer_page .instagram_area .conrainer_box .insta_btn {
+  position: absolute;
+  left: 40%;
+  top: 95%;
+  z-index: 3;
+}
+.footer_page .instagram_area .conrainer_box button {
+  padding: 0px 45px;
+  line-height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  font-family: "myFont2";
+  font-weight: 500;
+  font-size: 13px;
+  color: #222222;
+  box-sizing: border-box;
+}
+.footer_page .instagram_area .conrainer_box button:hover {
+  cursor: pointer;
+}
+.footer_page .instagram_area .conrainer_box .insta_img {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+}
+.footer_page .instagram_area .conrainer_box .insta_img img {
+  width: 190px;
+  height: 211px;
+  padding: 0px;
+}
+.footer_page .footer_area {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+.footer_page .footer_area .container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #fff;
+}
+.footer_page .footer_area .container .about {
+  width: 450px;
+  height: 200px;
+}
+.footer_page .footer_area .container .about h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "myFont";
+  margin-bottom: 35px;
+}
+.footer_page .footer_area .container .about p {
+  font-size: 14px;
+  font-family: "myFont2";
+  color: #777777;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.footer_page .footer_area .container .about p a {
+  color: #fa333f;
+}
+.footer_page .footer_area .container .newsletter {
+  width: 450px;
+  height: 200px;
+}
+.footer_page .footer_area .container .newsletter h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "myFont";
+  margin-bottom: 35px;
+}
+.footer_page .footer_area .container .newsletter p {
+  font-size: 14px;
+  font-family: "myFont2";
+  color: #777777;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.footer_page .footer_area .container .newsletter form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.footer_page .footer_area .container .newsletter form input {
+  width: 80%;
+  height: 40px;
+  background: transparent;
+  padding: 0px 15px;
+  border: 1px solid #1e233b;
+  font-size: 14px;
+  outline: none;
+  font-family: "myFont2";
+}
+.footer_page .footer_area .container .newsletter form span {
+  height: 40px;
+  background-color: #fa333f;
+  padding: 0px 15px;
+}
+.footer_page .footer_area .container .newsletter form span button {
+  color: #fff;
+  background-color: #fa333f;
+  border: none;
+}
+.footer_page .footer_area .container .newsletter form span button:hover {
+  cursor: pointer;
+}
+.footer_page .footer_area .container .newsletter form span button i {
+  align-items: center;
+}
+.footer_page .footer_area .container .follow_me {
+  width: 165px;
+  height: 200px;
+}
+.footer_page .footer_area .container .follow_me h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "myFont";
+  margin-bottom: 35px;
+}
+.footer_page .footer_area .container .follow_me p {
+  font-size: 14px;
+  font-family: "myFont2";
+  color: #777777;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.footer_page .footer_area .container .follow_me ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+}
+.footer_page .footer_area .container .follow_me ul li {
+  margin-right: 20px;
+}
+.footer_page .footer_area .container .follow_me ul li a {
+  color: #fff;
+}
+.footer_page .footer_area .container .follow_me ul li a:hover {
+  color: #fa333f;
+}/*# sourceMappingURL=instagram_area.css.map */

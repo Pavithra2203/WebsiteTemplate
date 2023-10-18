@@ -1,0 +1,89 @@
+.feedback{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    // background-color: aquamarine;
+    .parent_container{
+        width: 1140px;
+        height: 430px;
+        margin: 0px 26px;
+        padding: 0px 15px;
+        display: flex;
+        align-items: center;
+         background-color:#f9f9ff;
+         border-radius: 10px;
+
+        //  first child
+
+        .client_feedback{
+            width: 310px;
+            height: 130px;
+            padding: 0px 55px 0px 95px;
+           h3{
+            font-size: 36px;
+            font-family: "myFont";
+            margin: 0px 0px 15px;
+           }
+           p{
+            font-size: 14px;
+            font-family: "myFont2";
+            color: #777777;
+            line-height: 24px;
+            text-align: justify;
+           }
+        }
+
+        // second child
+
+        .card{
+            width: 560px;
+            height: 226px;
+            display:block;
+            border: 1px solid white;
+            border-radius: 10px;
+            background-color:white;
+            margin: 30px;
+            box-shadow: 1px 1px 10px #dcdddd;
+            .img{
+               margin-left: 40px;
+               margin-top: 40px;
+            img{
+                width: 80px;
+                height: 80px;
+                object-fit: cover;
+               border-radius: 5px;
+               float: left;
+            }
+        }
+
+        .text{
+            margin-left:150px;
+            margin-right: 40px;
+            p{
+                font-style: italic;
+                font-size: 14px;
+                font-family: "myFont2";
+                color: #777777;
+                margin-left: 10px;
+                margin: 0px 0px 20px;
+                line-height: 24px;
+            }
+            h4{
+                font-size: 18px;
+                font-family: "myFont";
+                margin: 0px 0px 8px;
+            }
+            h5{
+                font-size: 14px;
+                font-family: "myFont2";
+                color: #777777;
+                font-weight: normal;
+            }
+            
+        }
+        }
+    }
+}

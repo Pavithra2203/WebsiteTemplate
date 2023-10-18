@@ -1,0 +1,114 @@
+
+.services_parent_container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    padding: 120px 0px;
+    // background-color: aquamarine;
+    .container{
+        margin: 0px 14px ;
+        padding: 0px 15px;
+        .title{
+            max-width: 670px;
+            margin: 0px auto 75px;
+            text-align: center;
+            h2{
+                font-family: "myFont";
+                font-size: 42px;
+                color: #222222;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 14px;
+                color: #777777;
+                font-family: "myFont2";
+                font-weight: normal;
+                line-height: 24px;
+            }
+        }
+        .boxmodel_parent_row1{
+            width:100%;
+            height: 175px;
+            display: flex;
+            
+        .boxmodel_container{
+            width: 285px;
+            height: 175px;
+         .services_img{
+                img{
+                width: 285px;
+                height: 175px;
+                }
+            }
+            .services_text{
+                width: 285px;
+                height: 175px;
+                background-color: #f9f9ff;
+               h4{
+                font-size: 20px;
+                font-family: "myFont";
+                margin: 0px 0px 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+               }
+               p{
+                font-size: 14px;
+                font-family: "myFont2";
+                color:#777777 ;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                line-height: 25px;
+               }
+            
+            }
+        }
+
+        }
+        .boxmodel_parent_row2{
+            width:100%;
+            height: 175px;
+            display: flex;
+            .boxmodel_container{
+                width: 570px;
+                height: 175px;
+                display: flex;
+                // background-color: #222222;
+                .services_text{
+                    // width: 285px;
+                    height: 175px;
+                    background-color: #f9f9ff;
+                   h4{
+                    font-size: 20px;
+                    font-family: "myFont";
+                    margin: 0px 0px 5px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 10px;
+                   }
+                   p{
+                    font-size: 14px;
+                    font-family: "myFont2";
+                    color:#777777 ;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 10px;
+                    line-height: 25px;
+                   }
+                
+                }
+                .services_img{
+                
+                    img{
+                        width: 285px;
+                        height: 175px; 
+                        display: flex;
+                    }
+                }
+            }
+    
+        }
+    }
+}

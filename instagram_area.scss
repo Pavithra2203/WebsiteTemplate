@@ -1,0 +1,189 @@
+.footer_page{
+       width: 100%;
+       height: 100vh;
+    
+.instagram_area{
+    width: 100%;
+    height: 211px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: aqua;
+    
+    .conrainer_box{
+        width:80%;
+        height: 100%;
+        
+        position: relative;
+        
+        // background-color: bisque;
+        .insta_btn{
+            position: absolute;
+                left: 40%;
+                top: 95%;
+               
+                z-index:3;
+            }
+            button{
+                padding:0px 45px;
+                line-height: 50px;
+                border-radius: 5px;
+                border: none;
+                background-color: #fff;
+                font-family: "myFont2";
+                font-weight: 500;
+                font-size: 13px;
+                color: #222222;
+                box-sizing: border-box;
+                &:hover{
+                    cursor: pointer;
+                }
+        }
+   
+    .insta_img{
+           width: auto;
+           height: auto;
+           display: flex;
+           justify-content: center;
+           position: absolute;
+          top: 50%;
+          z-index: 2;
+        img{
+            width: 190px;
+            height: 211px;
+            padding: 0px;
+        } 
+    }
+    }
+}
+
+.footer_area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    
+   .container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    // background-color: aqua;
+    color: #fff;
+    .about{
+        width:450px;
+        height:200px;
+        // background-color: rgb(6, 45, 80);
+        h3{
+            font-size: 18px;
+            font-weight: bold;
+            font-family: "myFont";
+            margin-bottom: 35px;
+        }
+        p{
+            font-size: 14px;
+            font-family: "myFont2";
+            color: #777777;
+            line-height: 24px;
+            margin-bottom: 30px;
+            a{
+                color: #fa333f;
+            }
+        }
+    }
+    .newsletter{
+        width:450px;
+        height:200px;
+        h3{
+            font-size: 18px;
+            font-weight: bold;
+            font-family: "myFont";
+            margin-bottom: 35px;
+        }
+        p{
+            font-size: 14px;
+            font-family: "myFont2";
+            color: #777777;
+            line-height: 24px;
+            margin-bottom: 10px;
+    }
+    form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        input{
+            width: 80%;
+            height: 40px;
+           
+            background: transparent;
+            padding: 0px 15px;
+            border: 1px solid #1e233b;
+            font-size: 14px;
+            outline: none;
+            font-family: "myFont2";
+            
+        }
+        span{
+            height: 40px;
+            background-color: #fa333f;
+            padding:0px 15px;
+           button{
+              color: #fff;
+              background-color: #fa333f;
+              border: none;
+              &:hover{
+                cursor: pointer;
+              }
+              i{
+                align-items: center;
+              }
+           }
+        }
+    }
+   }
+
+   .follow_me{
+    width:165px;
+    height:200px;
+    h3{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "myFont";
+        margin-bottom: 35px;
+    }
+
+    p{
+        font-size: 14px;
+        font-family: "myFont2";
+        color: #777777;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        
+        list-style-type: none;
+        
+       li{
+       margin-right: 20px;
+        a{
+            color: #fff;
+            &:hover{
+                color: #fa333f;
+            }
+        }
+       }
+        
+    }
+   }
+}
+}
+}
